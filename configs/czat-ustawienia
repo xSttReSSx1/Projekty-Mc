@@ -1,1 +1,176 @@
-
+# ------------------------------------- #
+# Ten Projekt                           #
+# Został Napisany                       #
+# Przez [xSttReSSx]                     #
+# ------------------------------------- #
+# DZIALA Z [PERMISSIONSEX]              #
+# ------------------------------------- #
+# Addons:                               #
+# ------------------------------------- #
+# Zmienne :                             #
+# ------------------------------------- #
+# [NAME]    - nazwa gracza              #
+# [PREFIX]  - nazwa rangi gracza        #
+# [LEVEL]   - uzyskany level pvp gracza #
+# [EXP]     - uzyskany exp gracza       #
+# [NEEDEXP] - potrzebny exp gracza      #
+# [KILLS]   - zabici gracze             #
+# [DEATH]   - ilosc zginiec             #
+# ------------------------------------- #
+version: '0.01 alfa'
+czat: true
+logo: ' 8» &7&[&f&lControler&7]'
+#
+#  
+hash:
+  gracz:
+    style: '&8| &b[LEVEL] &8|&7[PREFIX]&8|&7[NAME] &r&8»'
+    group: '&8|&7&lG&8|&r'
+    color: '&7'
+    timer: '5'    
+    priority: 'default'    
+  dziewczyna:
+    style: '&8| &b[LEVEL] &8|&7[PREFIX]&8|[RANGA]&7[NAME] &r&8»'
+    group: '&d&lGIRL&8|&r'
+    color: '&7'    
+    timer: '5'    
+    priority: 'default'    
+  vip:
+    style: '&8| &b[LEVEL] &8|&7[PREFIX]&8|[RANGA]&7[NAME] &r&8»'
+    group: '&3&lVIP&8|&r'
+    color: '&7'  
+    timer: '5'    
+    priority: 'default'    
+  svip:
+    style: '&8| &b[LEVEL] &8|&7[PREFIX]&8|[RANGA]&7[NAME] &r&8»'
+    group: '&6&lSVIP&8|&r'
+    color: '&7'   
+    timer: '5'       
+    priority: 'default'    
+  helper:
+    style: '&8|[RANGA]&7[NAME] &r&8»'
+    group: '&2&lHelper&8|&r'
+    color: '&2'  
+    timer: '0'     
+    priority: 'hiden'    
+  mod:
+    style: '&8|[RANGA]&7[NAME] &r&8»'
+    group: '&b&lMod&8|&r'
+    color: '&b'  
+    timer: '3'      
+    priority: 'default'        
+  chatmod:
+    style: '&8|[RANGA]&7[NAME] &r&8»'
+    group: '&9&lChatMod&8|&r'
+    color: '&9' 
+    timer: '3'     
+    priority: 'default'        
+  admin:
+    style: '[RANGA] &7&o[NAME] &r&8»'
+    group: '&8|&c&lAdmin&8|&r'
+    color: '&c'  
+    timer: '0'       
+    priority: 'hiden'    
+  headadmin:
+    style: '[RANGA] &7&o[NAME] &r&8»'
+    group: '&8|&c&lHeadAdmin&8|&r'
+    color: '&c' 
+    timer: '0'     
+    priority: 'hiden'        
+  wlascicielka:
+    style: '[RANGA] &7&o[NAME] &r&8»'
+    group: '&c|&4&lWlascicielka&c|'
+    color: '&c'  
+    timer: '0'   
+    priority: 'hiden'        
+  miniyt:
+    style: '&8| &b[LEVEL] &8|&7[PREFIX]&8|[RANGA]&7[NAME] &r&8»'
+    group: '&f&lMini&4&lYT&8|&r'
+    color: '&f' 
+    timer: '3'   
+    priority: 'default'        
+  youtuber:
+    style: '&8| &b[LEVEL] &8|&7[PREFIX]&8|[RANGA]&7[NAME] &r&8»'
+    group: '&f&lYT&4&l+&8|&r'
+    color: '&f'        
+    timer: '3'   
+    priority: 'default'    
+  twitch:
+    style: '&8| &b[LEVEL] &8|&7[PREFIX]&8|[RANGA]&7[NAME] &r&8»'
+    group: '&5&lTW&8|&r'
+    color: '&f' 
+    timer: '3'   
+    priority: 'default'        
+#
+wiadomosci:
+  #
+  clear-off:
+  - ' '
+  - ' &f&lRAPERKA.PL &9» &7&lCzat zostal &4&lWylaczony &7&lprzez&r'
+  - ' &f&lRAPERKA.PL &9» &2&l_PLAYER_&r'
+  - ' '
+  clear-on:
+  - ''
+  - ' &f&lRAPERKA.PL &9» &7&lCzat zostal &a&lWlaczony &7&lprzez&r'
+  - ' &f&lRAPERKA.PL &9» &2&l_PLAYER_&r'
+  - ' '
+  clear-spam:
+  - ' '
+  - ' &f&lRAPERKA.PL &9» &7&lCzat zostal &6&lWyczyszczony &7&lprzez&r'
+  - ' &f&lRAPERKA.PL &9» &2&l_PLAYER_&r'
+  - ' '
+  clear-automatic:
+  - ' '  
+  - ' &f&lRAPERKA.PL &9» &7&lCzat zostal Wyczyszczony &e&lAutomatycznie&r'
+  - ' '  
+  clear-console:
+  - ' '  
+  - ' &f&lRAPERKA.PL &9» &7&lCzat zostal Wyczyszczony przez &e&lConsole&r'
+  - ' '  
+  clear-c:
+  - ' '  
+  - ' &f&lRAPERKA.PL &9» &7&lCzat zostal Wyczyszczony przez&r'
+  - ' &f&lRAPERKA.PL &9» &2&l_PLAYER_&r'    
+  - ' '    
+  clear-nospam:
+  - '_LOGO_ &7Czat zostal wyczyszczony przez &4&l_PLAYER_&r'
+  auto-wiadomosc-1:
+  - ' '   
+  - ' &f&lRAPERKA.PL &9» &7&lTeamSpeak 3'
+  - ' &f&lRAPERKA.PL &9» &6ts.raperka.pl'
+  - ' '  
+  auto-wiadomosc-2:
+  - ' '  
+  - ' &f&lRAPERKA.PL &9» &7&lSklep SMS'
+  - ' &f&lRAPERKA.PL &9» &6http://raperka.pl/'
+  - ' '    
+  auto-wiadomosc-3:
+  - ' '  
+  - ' &f&lRAPERKA.PL &9» &7&lJestes nowy? Sprawdz'
+  - ' &f&lRAPERKA.PL &9» &6/pomoc'
+  - ' '    
+  auto-wiadomosc-4:
+  - ' '  
+  - ' &f&lRAPERKA.PL &9» &7&lMozliwe zakupy przez &6PaySafeCard'
+  - ' &f&lRAPERKA.PL &9» &6i PayPal &cwejdz na ts3'
+  - ' '    
+  auto-wiadomosc-5:
+  - ' '  
+  - ' &f&lRAPERKA.PL &9» &7&lNagrywasz na &fY&4T?'
+  - ' &f&lRAPERKA.PL &9» &6Sprawdz co dla Ciebie oferujemy! &c/yt'   
+  - ' '    
+  auto-wiadomosc-6:
+  - ' '  
+  - ' &f&lRAPERKA.PL &9» &7&lNajlepszy hosting serwerow minecraft!'
+  - ' &f&lRAPERKA.PL &9» &6www.titanaxe.com'       
+  - ' '    
+  auto-wiadomosc-7:
+  - ' '  
+  - ' &f&lRAPERKA.PL &9» &7&lWidzisz cheatera?'
+  - ' &f&lRAPERKA.PL &9» &6Zglos go! &c/zglos <nick> <powod>'
+  - ' '    
+  auto-wiadomosc-8:
+  - ' '  
+  - ' &f&lRAPERKA.PL &9» &7&lWymagania na range'
+  - ' &f&lRAPERKA.PL &9» &a&lCHATMOD &6znajdziesz pod &c/rekru'
+  - ' '    
