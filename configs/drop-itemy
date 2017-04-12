@@ -1,0 +1,166 @@
+version: '0.01 alfa'
+itemy:
+  klucz standard:
+    item: tripwire hook
+    uzywane: 'true'
+    drop: 'false'
+    procent: '50'
+    nazwa: '&cKlucz do Skrzyni &6&lSTANDARD'
+    nazwa-join: ' &6» &7Aktualnie jest wlaczony &r_NAZWA_ &4&l &c&lx&4&l_MNOZNIK_'
+    ilosc: '1'
+    mnoznik:
+      ilosc: '1'    
+    lore:
+    - ''
+    - '&8sysDrop - by xSttReSSx'        
+    - ''        
+    kasa:
+      uzycie: 'false'
+      ilosc: 100    
+    enchanty:
+      uzycie: 'false'
+      lista:
+      - unbreaking 1
+    komendy:
+      uzycie: 'true'
+      lista:
+      - 'case givekey _GRACZ_ standard _ILOSC_'
+    wiadomosc:
+    - ' &8>> &7Brawo &c_GRACZ_ &7wydropiles &b_ITEM_'
+  klucz epic:
+    item: tripwire hook
+    uzywane: 'true'
+    drop: 'false'
+    procent: '50'
+    nazwa: '&cKlucz do Skrzyni &a&lEPIC'
+    nazwa-join: ' &6» &7Aktualnie jest wlaczony &r_NAZWA_ &c&lx&4&l_MNOZNIK_'
+    ilosc: '1'
+    mnoznik:
+      ilosc: '1'      
+    lore:
+    - ''
+    - '&8sysDrop - by xSttReSSx'        
+    - ''        
+    kasa:
+      uzycie: 'false'
+      ilosc: 100    
+    enchanty:
+      uzycie: 'false'
+      lista:
+      - unbreaking 1
+    komendy:
+      uzycie: 'true'
+      lista:
+      - 'case givekey _GRACZ_ epic _ILOSC_'
+    wiadomosc:
+    - ' &8>> &7Brawo &c_GRACZ_ &7wydropiles &b_ITEM_'
+  klucz legendary:
+    item: tripwire hook
+    uzywane: 'true'
+    drop: 'false'
+    procent: '50'
+    nazwa: '&cKlucz do Skrzyni &a&lLEGENDARY'
+    nazwa-join: ' &6» &7Aktualnie jest wlaczony &r_NAZWA_ &c&lx&4&l_MNOZNIK_'
+    ilosc: '1'
+    mnoznik:
+      ilosc: '1'    
+    lore:
+    - ''
+    - '&8sysDrop - by &4xSttReSSx'        
+    - ''        
+    kasa:
+      uzycie: 'false'
+      ilosc: 100    
+    enchanty:
+      uzycie: 'false'
+      lista:
+      - unbreaking 1
+    komendy:
+      uzycie: 'true'
+      lista:
+      - 'case givekey _GRACZ_ legendary _ILOSC_'
+    wiadomosc:
+    - ' &8>> &7Brawo &c_GRACZ_ &7wydropiles &b_ITEM_'        
+  diax:
+    item: diamond
+    uzywane: 'true'
+    drop: 'true'
+    procent: '50'
+    nazwa: '&bDiament'
+    nazwa-join: ' &6» &7Aktualnie jest wlaczony &r_NAZWA_ &c&lx&4&l_MNOZNIK_'
+    ilosc: '1'
+    mnoznik:
+      ilosc: '1'    
+    lore:
+    - ''
+    - '&8sysDrop - by &4xSttReSSx'        
+    - ''        
+    kasa:
+      uzycie: 'true'
+      ilosc: 100    
+    enchanty:
+      uzycie: 'true'
+      lista:
+      - unbreaking 1
+    komendy:
+      uzycie: 'false'
+      lista:
+      - ''
+    wiadomosc:
+    - ' &8>> &7Brawo &c_GRACZ_ &7wydropiles &b_ITEM_'
+  butelka expa:
+    item: bottle o' enchanting
+    uzywane: 'true'
+    drop: 'true'
+    procent: '50'
+    nazwa: '&6Butelka Expa'
+    nazwa-join: ' &6» &7Aktualnie jest wlaczony &r_NAZWA_ &c&lx&4&l_MNOZNIK_'
+    ilosc: '1'
+    mnoznik:
+      ilosc: '1'    
+    lore:
+    - ''
+    - '&8sysDrop - by &4xSttReSSx'        
+    - ''        
+    kasa:
+      uzycie: 'true'
+      ilosc: 100    
+    enchanty:
+      uzycie: 'true'
+      lista:
+      - unbreaking 5
+    komendy:
+      uzycie: 'false'
+      lista:
+      - 'say lol'
+      - 'broadcast hihi'    
+    wiadomosc:
+    - ' &8>> &7Brawo &c_GRACZ_ &7wydropiles &b_ITEM_'
+  kasa:
+    item: sunflower
+    uzywane: 'true'
+    drop: 'true'
+    procent: '50'
+    nazwa: '&6Butelka Expa'
+    nazwa-join: ' &6» &7Aktualnie jest wlaczony &r_NAZWA_ &c&lx&4&l_MNOZNIK_'
+    ilosc: '1'
+    mnoznik:
+      ilosc: '1'    
+    lore:
+    - ''
+    - '&8sysDrop - by &4xSttReSSx'        
+    - ''        
+    kasa:
+      uzycie: 'true'
+      ilosc: 100    
+    enchanty:
+      uzycie: 'true'
+      lista:
+      - unbreaking 5
+    komendy:
+      uzycie: 'false'
+      lista:
+      - 'say lol'
+      - 'broadcast hihi'    
+    wiadomosc:
+    - ' &8>> &7Brawo &c_GRACZ_ &7wydropiles &b_ITEM_'    
