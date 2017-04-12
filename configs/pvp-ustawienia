@@ -1,0 +1,165 @@
+# 
+# 
+# 
+version: '0.01 alfa'
+logo: '&8»&r'
+need-exp: '25'
+#    
+#    
+#    
+global:
+  exp:
+    duble: 'false'
+    triple: 'false'
+    quadra: 'true'
+  kasa:
+    duble: 'false'
+    triple: 'false'
+    quadra: 'true'   
+boosty:
+  level-gracza:
+    poziom-1: 10000
+    poziom-2: 20000
+    poziom-3: 30000
+    poziom-4: 40000
+level:
+  used: true
+  publiczna:
+    - '&8&l&m-----------------------------&r'
+    - ' _LOGO_ &3_GRACZ_ &7osiagnol &cLevel &4_LEVEL_'
+    - '&8&l&m-----------------------------&r'
+  prywatna:
+    - ' _LOGO_ &3_GRACZ_ &7osiagneles &cLevel &4_LEVEL_'
+     
+zyski:
+  minus:  
+    gracz:
+      kasa:
+        dzialanie: true
+        od: '1'
+        do: '100'
+      exp:
+        dzialanie: true
+        od: '0.01'
+        do: '1.00'
+    vip:
+      kasa:
+        dzialanie: true
+        od: '1'
+        do: '75'
+      exp:
+        dzialanie: true
+        od: '0.01'
+        do: '0.85'
+    svip:
+      kasa:
+        dzialanie: true
+        od: '1'
+        do: '50'
+      exp:
+        dzialanie: true
+        od: '0.01'
+        do: '0.60'
+  plus:
+    gracz:
+      kasa:
+        dzialanie: true
+        od: '1'
+        do: '100'
+      exp:
+        dzialanie: true
+        od: '0.01'
+        do: '1.00'
+    vip:
+      kasa:
+        dzialanie: true
+        od: '1'
+        do: '100'
+        ilosc: '100'
+      exp:
+        dzialanie: true
+        od: '0.01'
+        do: '1.50'
+    svip:
+      kasa:
+        dzialanie: true
+        od: '1'
+        do: '100'
+        ilosc: '100'
+      exp:
+        dzialanie: true
+        od: '0.01'
+        do: '2.00'
+wiadomosci:
+  przyjmujacy:
+    #
+    # ZMIENNE:
+    #   _ATTACKER_
+    #   _VICTIM_
+    #   _SERCA_
+    #   _ITEM_ATAKUJACEGO_
+    #  
+    mozliwosc: 'SEND'
+    action: _LOGO_ &c_ATTACKER_ &7za zabicie &3_VICTIM_ &7dostajesz &e_KASA_&6$ &6Kasy &7i &e_EXP_ &6Expa
+    bossbar: _LOGO_ &a&l✔ &3_VICTIM_ &4&l☩ &e_KASA_&6$ &6Kasy &7i &e_EXP_ &6Expa   
+    send:
+      - ' '
+      - '&8&l&m-----------------------------&r'
+      - ' _LOGO_ &3_VICTIM_ &7zabil cie &c_ATTACKER_'
+      - ' _LOGO_ &7zabieram ci &c50&6$ '
+      - ' _LOGO_ &7zotalo mu &c_SERCA_&4❤'
+      - '&8&l&m-----------------------------&r'
+      - ' '
+  atakujacy:
+      #
+      # ZMIENNE:
+      #   _ATTACKER_
+      #   _VICTIM_
+      #   _KASA_
+      #   _EXP_
+      #   _DROP_
+      #   _SERCA_ATTACKER_
+      #   _ITEM_ATAKUJACEGO_
+      #   _DODATNIA_
+      #  
+    gracz:
+      mozliwosc: 'SEND'
+      action: _LOGO_ &c_ATTACKER_ &7za zabicie &3_VICTIM_ &7dostajesz &e_KASA_&6$ &6Kasy &7i &e_EXP_ &6Expa
+      bossbar: _LOGO_ &a&l✔ &3_VICTIM_ &4&l☩ &e_KASA_&6$ &6Kasy &7i &e_EXP_ &6Expa   
+      send:
+        - ' '
+        - '&8&l&m-----------------------------&r'
+        - ' _LOGO_ &3_ATTACKER_ &7zabiles &c_VICTIM_'
+        - ' _LOGO_ &7zostalo ci &c_SERCA_&4❤'
+        - ' _LOGO_ &7dostajesz &e_KASA_&6$ &6Kasy &7i &e_EXP_ &6Expa'
+        - '&8&l&m-----------------------------&r'
+        - ' '  
+    vip:
+      mozliwosc: 'SEND'
+      action: _LOGO_ &c_ATTACKER_ &7za zabicie &3_VICTIM_ &7dostajesz &e_KASA_&4+_DODATNIE_&6$ &6Kasy &7i &e_EXP_ &6Expa
+      bossbar: _LOGO_ &a&l✔ &3_VICTIM_ &4&l☩ &e_KASA_&4+_DODATNIE_&6$ &6Kasy &7i &e_EXP_ &6Expa   
+      send:
+        - ' '      
+        - '&8&l&m-----------------------------&r'
+        - ' _LOGO_ &3_ATTACKER_ &7zabiles &c_VICTIM_'
+        - ' _LOGO_ &7dostajesz &e_KASA_+_DODATNIE_&6$ &6Kasy &7i &e_EXP_ &6Expa'
+        - '&8&l&m-----------------------------&r'
+        - ' '           
+    svip:
+      mozliwosc: 'SEND'
+      action: _LOGO_ &c_ATTACKER_ &7za zabicie &3_VICTIM_ &7dostajesz &e_KASA_&4+_DODATNIE_&6$ &6Kasy &7i &e_EXP_ &6Expa
+      bossbar: _LOGO_ &a&l✔ &3_VICTIM_ &4&l☩ &e_KASA_&4+_DODATNIE_&6$ &6Kasy &7i &e_EXP_ &6Expa   
+      send:
+        - ' '      
+        - '&8&l&m-----------------------------&r'
+        - ' _LOGO_ &3_ATTACKER_ &7zabiles &c_VICTIM_'
+        - ' _LOGO_ &7dostajesz &e_KASA_+_DODATNIE_&6$ &6Kasy &7i &e_EXP_ &6Expa'
+        - '&8&l&m-----------------------------&r'
+        - ' '           
+block-ip:
+  dzialanie: true
+  max-connect-ip: '2'
+  mozliwosc: SEND
+  send: _LOGO_ &c_ATTACKER_ &fnie dostajesz nagrody za &3_VICTIM_ &4powod te samo ip &8_IP_
+  bossbar: _LOGO_ &c_ATTACKER_ &fnie dostajesz nagrody za &3_VICTIM_ &4te samo ip &8_IP_
+  actionbar: _LOGO_ &c_ATTACKER_ &fnie dostajesz nagrody za &3_VICTIM_ &4powod te samo ip &8_IP_
