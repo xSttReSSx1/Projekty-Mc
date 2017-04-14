@@ -1,0 +1,61 @@
+rangi:
+  Nowy:
+    level: 0
+    zabicia: 0 
+  Swiezak:
+    level: 5     
+    zabicia: 20 
+  Nowicjusz:
+    level: 10    
+    zabicia: 100
+  Uczen:
+    level: 15    
+    zabicia: 30   
+  Kox:
+    level: 20   
+    zabicia: 30  
+  ProKox:
+    levele: 25  
+    zabicia: 30   
+  Znawca:
+    level: 30  
+    zabicia: 30   
+  Zabijaka:
+    level: 35   
+    zabicia: 30  
+  Okrutny:
+    level: 40   
+    zabicia: 30     
+  Agresywny:
+    level: 45    
+    zabicia: 30   
+  Przerazajacy: 
+    level: 50   
+    zabicia: 30 
+  Dominator:
+    level: 55  
+    zabicia: 30  
+  Potezny: 
+    level: 60  
+    zabicia: 30 
+  Assasin:
+    level: 65  
+    zabicia: 30    
+  Pro Assasin:
+    level: 70   
+    zabicia: 30    
+  Niesmiertelny:
+    level: 75  
+    zabicia: 30     
+  Terminator:
+    level: 80  
+    zabicia: 30    
+  Cheater:
+    level: 85  
+    zabicia: 30      
+  KrolPvp:
+    level: 95   
+    zabicia: 30  
+  Legenda:
+    level: 101  
+    zabicia: 30      
