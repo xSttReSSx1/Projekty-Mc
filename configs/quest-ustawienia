@@ -1,0 +1,30 @@
+#
+# PROJEKT SWTORZYL xSttReSSx 
+#
+uzyskane:
+- ''
+- ' &f» &8&nOsiagniecie:&r'
+- '  &3&l→&r &7_TAG_&r'
+- ''
+- ' &f» &8&nZadanie wykonane&r'
+- '_ZADANIE_'
+- ''
+- ' &f» &8&nPostep:'
+- '  &3&l→&r _PR_'
+- '  &3&l→&r &9(&f_PROCENT_&e%&9) &9(&f_ILOSC_&7/&f_MAX_&9) &2&l✔'
+- ' '
+nieuzyskane:
+- ''
+- ' &f» &8&nOsiagniecie:&r'
+- '  &3&l→&r &7_TAG_&r'
+- ''
+- ' &f» &8&nZadanie do wykonania:&r'
+- '_ZADANIE_'
+- ''
+- ' &f» &8&nNagrody do uzyskania:&r'
+- '_ITEMY_&r'
+- ''
+- ' &f» &8&nPostep:'
+- '  &3&l→&r &f_PROCENT_&e% &f_ILOSC_&7/&f_MAX_ &4&l✘'
+- '  &3&l→&r _PR_'
+- ' '
